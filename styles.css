@@ -1,0 +1,10 @@
+
+body {
+	background-color: #172029;
+	text-align: center;
+}
+
+.profilePicture {
+	position: relative;
+	width: 40%;
+}
