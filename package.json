@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "postinstall": "rm ./node_modules/.bin/now && cp ./tools/now ./node_modules/.bin/now",
     "build": "echo 'Nothing to build'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "npm run build && npm run just-deploy && npm run deploy-alias",
-    "just-deploy": "now --name=michaelzabka deploy build",
+    "just-deploy": "now --name=michaelzabka deploy",
     "deploy-alias": "now alias"
   },
   "repository": {

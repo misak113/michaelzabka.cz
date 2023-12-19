@@ -1,4 +1,5 @@
 {
     "name": "michaelzabka",
-    "alias": "www.michaelzabka.cz"
+    "alias": "www.michaelzabka.cz",
+    "outputDirectory": "."
 }
